@@ -2135,7 +2135,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Jade Blade of the Great Fleet" hidden="true" id="371a-822a-cddb-5826" sortIndex="95">
+            <selectionEntry type="upgrade" import="true" name="Jade Blade of the Great Fleet" hidden="true" id="4ba0-1c31-40eb-1ba9" sortIndex="95">
               <infoLinks>
                 <infoLink name="Jade Blade of the Great Fleet" id="b90e-e44e-fe3e-085f" hidden="false" targetId="3e73-9eba-9445-a3ce" type="profile"/>
               </infoLinks>
@@ -3005,7 +3005,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Levitating Shield" hidden="false" id="db81-dc78-7015-54c4" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Levitating Shield" hidden="true" id="db81-dc78-7015-54c4" sortIndex="5">
               <costs>
                 <cost name="pts" typeId="points" value="25"/>
               </costs>
@@ -3016,6 +3016,22 @@
               <infoLinks>
                 <infoLink name="Levitating Shield" id="47b2-62c1-0054-b066" hidden="false" type="profile" targetId="05bd-722e-7534-505b"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -3855,7 +3871,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Trailblazer&apos;s Hauberk" hidden="false" id="7bf7-35bd-9d04-b226" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Trailblazer&apos;s Hauberk" hidden="true" id="7bf7-35bd-9d04-b226" sortIndex="2">
               <costs>
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
@@ -3866,6 +3882,22 @@
               <infoLinks>
                 <infoLink name="Trailblazer&apos;s Hauberk" id="7684-429d-17c0-41e1" hidden="false" type="profile" targetId="a0fa-6e02-731b-5ccf"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -5868,7 +5900,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Banner Of The Steadfast" hidden="false" id="5134-ad3f-3838-970f" sortIndex="80">
+        <selectionEntry type="upgrade" import="true" name="Banner Of The Steadfast" hidden="true" id="5134-ad3f-3838-970f" sortIndex="80">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8563-f628-e923-1d46" includeChildSelections="true"/>
           </constraints>
@@ -5878,6 +5910,22 @@
           <costs>
             <cost name="pts" typeId="points" value="50"/>
           </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Totem Of Wrath" hidden="false" id="0582-a4c1-0d29-334c" sortIndex="89">
           <costs>
@@ -6949,7 +6997,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Icon Of Fortitude" hidden="false" id="eb8b-c993-3379-f776" sortIndex="25">
+            <selectionEntry type="upgrade" import="true" name="Icon Of Fortitude" hidden="true" id="eb8b-c993-3379-f776" sortIndex="25">
               <costs>
                 <cost name="pts" typeId="points" value="35"/>
               </costs>
@@ -6960,8 +7008,30 @@
               <infoLinks>
                 <infoLink name="Icon Of Fortitude" id="31f7-deb3-0ff4-c231" hidden="false" type="profile" targetId="0cc5-bfde-1fc4-04e6"/>
               </infoLinks>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ironhide Talisman" hidden="false" id="2b07-5f4b-a58e-d672" sortIndex="16">
+            <selectionEntry type="upgrade" import="true" name="Ironhide Talisman" hidden="true" id="2b07-5f4b-a58e-d672" sortIndex="16">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="370e-36fa-410d-b269" includeChildSelections="true"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7889-a713-4faa-6cc6" includeChildSelections="false"/>
@@ -6972,6 +7042,22 @@
               <costs>
                 <cost name="pts" typeId="points" value="30"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -8192,6 +8278,7 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Becalming Orb" id="d631-d423-0cbe-3322" hidden="false" type="profile" targetId="e68a-58d4-1de5-8d59"/>
+                <infoLink name="Becalming Orb" id="99ef-1373-ed1b-d29d" hidden="false" type="profile" targetId="a90f-a6f9-7166-fa33"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -10271,7 +10358,7 @@
     </profile>
     <profile name="Feedback Scroll" hidden="false" id="b485-2f08-6fc3-54c3" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. The bearer may use this scroll instead of making a Wizardly dispel attempt. The spell is cast as normal. Once the spell has been resolved, roll  2D6. For each roll of a 4+, the casting Wizard loses a single Wound.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. The bearer may use this scroll instead of making a Wizardly dispel attempt. The spell is cast as normal. Once the spell has been resolved, roll  2D6. For each roll of a 4+, the casting Wizard loses a single Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="Scroll of Transmogrification" hidden="false" id="1610-786d-cf0-cf8e" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items">
@@ -10353,7 +10440,7 @@ Whilst transmogrified, the Wizard cannot cast or dispel any spells, cannot use a
     </profile>
     <profile name="Doom Totem" hidden="false" id="aabf-4b79-cb4a-bb82" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">All enemy units that can draw a line of sight to the model carrying the Doom Totem suffer a -1 modifier to their Leadership characteristic.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">All enemy units that can draw a line of sight to the model carrying the Doom Totem suffer a -1 modifier to their Leadership characteristic.</characteristic>
       </characteristics>
     </profile>
     <profile name="Wraithstone" hidden="false" id="88f8-d3be-2578-ca2e" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items">
@@ -11000,7 +11087,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+1</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">When making a roll To Wound for a hit caused with the Graven Sceptre, a roll of 4+ is always a success, regardless of the target’s Toughness.</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">When making a roll To Wound for a hit caused with the Graven Sceptre, a roll of 4+ is always a success, regardless of the target’s Toughness.</characteristic>
       </characteristics>
     </profile>
     <profile name="Black Hammer of Hashut" hidden="false" id="c509-90ba-4c16-89ff" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
@@ -11009,7 +11096,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-1</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">(Killing Blow), Flaming Attacks, Magical Attacks, Multiple Wounds (D3)</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Against models with the Flammable special rule, this weapon also has the Killing Blow special rule.</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Against models with the Flammable special rule, this weapon also has the Killing Blow special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dark Maul" hidden="false" id="c7d3-6a3b-b28f-f825" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
@@ -11018,7 +11105,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Killing Blow, Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Any enemy model that suffers one or more unsaved wounds from the Dark Maul must immediately make a Strength test. If this test is failed, the enemy model loses an additional Wound.</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Any enemy model that suffers one or more unsaved wounds from the Dark Maul must immediately make a Strength test. If this test is failed, the enemy model loses an additional Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dagger of Malice" hidden="false" id="471d-36fa-8555-2613" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons">
@@ -11026,13 +11113,13 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Frenzy, Hatred (all enemies), Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Unlike other Frenzied models, the wielder of the Dagger of Malice cannot lose this special rule.</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Frenzy, Hatred (all enemies), Magical Attacks</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Unlike other Frenzied models, the wielder of the Dagger of Malice cannot lose this special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Armour of Bazherak the Cruel" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="2df-5648-fbe5-c7a">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of Bazherak the Cruel is a suit of full plate armour. In addition, its wearer has the Immune to Psychology and Magic Resistance (-2) special rules.</characteristic>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">The Armour of Bazherak the Cruel is a suit of full plate armour. In addition, its wearer has the Immune to Psychology and Magic Resistance (-2) special rules.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Mask of the Furnace" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="1e07-f5d0-e2f6-fe5">
@@ -11047,12 +11134,12 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Mantle of Stone" typeId="5c1d-13f3-7dd6-e817" typeName="Talismans" hidden="false" id="98f3-d1f7-9b22-e85">
       <characteristics>
-        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The wearer of a Mantle of Stone has a +1 modifier to their Toughness characteristic, but a -1 modifier to their Initiative characteristic.</characteristic>
+        <characteristic name="Description" typeId="3fa5-c856-b00a-c9f4">The wearer of a Mantle of Stone has a +1 modifier to their Toughness characteristic, but a -1 modifier to their Initiative characteristic.</characteristic>
       </characteristics>
     </profile>
     <profile name="Shroud Of The Ancestor" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="9635-4c0d-4526-ddfc">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Shroud of the Ancestor gains the Hatred (Dwarfs) special rule.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">A unit carrying the Shroud of the Ancestor gains the Hatred (Dwarfs) special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Lammasu’s Beard" typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="f826-2470-5785-440">
@@ -11067,7 +11154,7 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Overseer&apos;s Sigil." typeId="e3be-1b80-f570-96a1" typeName="Magic Standards" hidden="false" id="b081-d201-e4c7-87c1">
       <characteristics>
-        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Whilst within 9&quot; of the model carrying the Overseer’s Sigil, friendly units lose the Levies special rule.</characteristic>
+        <characteristic name="Description" typeId="a34c-cc25-6cb9-95e1">Whilst within 9&quot; of the model carrying the Overseer’s Sigil, friendly units lose the Levies special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Obsidian Vambraces" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="88c5-2cd7-75f7-f0fc">
@@ -11082,9 +11169,9 @@ Note that it is possible the Wizard might generate the spell they just forgot, o
     </profile>
     <profile name="Breath Of Hashut" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="8d55-fac7-e03b-170e">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single use. The Breath of Hashut is a breath weapon with the following profile:
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single use. The Breath of Hashut is a breath weapon with the following profile:
 
-R: N/A S: 4 AP: -2 Special Rules: Breath Weapon, Flaming Attacks, Magical Attacks</characteristic>
+R: N/A S: 4 AP: -2 Special Rules: Breath Weapon, Flaming Attacks, Magical Attacks</characteristic>
       </characteristics>
     </profile>
     <profile name="Scroll Of Binding" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="3e9f-f011-7f3b-17b7">
@@ -11094,17 +11181,17 @@ R: N/A S: 4 AP: -2 Special Rules: Breath Weapon, Flaming Attacks, Magical Atta
     </profile>
     <profile name="Daemon Flask" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="4361-e2e1-368b-6a97">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. During the Command sub-phase of their turn, the bearer of the Daemon Flask may open it. When they do so, all enemy units that are within this character’s Command range must make a Panic test.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. During the Command sub-phase of their turn, the bearer of the Daemon Flask may open it. When they do so, all enemy units that are within this character’s Command range must make a Panic test.</characteristic>
       </characteristics>
     </profile>
     <profile name="Vial Of Lammasu Blood" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="f234-8744-6748-c443">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. A Wizard may use this item instead of making a dispel attempt. If they do so, the spell is automatically dispelled with no Dispel roll required.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">Single use. A Wizard may use this item instead of making a dispel attempt. If they do so, the spell is automatically dispelled with no Dispel roll required.</characteristic>
       </characteristics>
     </profile>
     <profile name="Warpstone Tokens" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="5226-1a14-c4ae-fbc3">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">A Wizard may purchase up to three Warpstone Tokens, each of which is single use.  Before making a Casting roll, a Wizard may choose to consume a single Warpstone Token. For each Token consumed, they may roll an additional D3 and add its result to their Casting roll. However, for each natural 1 that is rolled, the Wizard loses a single Wound.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">A Wizard may purchase up to three Warpstone Tokens, each of which is single use.  Before making a Casting roll, a Wizard may choose to consume a single Warpstone Token. For each Token consumed, they may roll an additional D3 and add its result to their Casting roll. However, for each natural 1 that is rolled, the Wizard loses a single Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="The Fellblade" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="9f59-6293-69e1-71a4">
@@ -11115,8 +11202,8 @@ R: N/A S: 4 AP: -2 Special Rules: Breath Weapon, Flaming Attacks, Magical Atta
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Multiple Wounds (D3)</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Characters whose Troop Type is “infantry” only.
 
-No armour, Ward or Regeneration saves are permitted against wounds caused by this weapon.
-However, during the Command sub-phase of their turn, the wielder of the Fellblade must roll a D3. On a roll of 1, they lose a single Wound.</characteristic>
+No armour, Ward or Regeneration saves are permitted against wounds caused by this weapon.
+However, during the Command sub-phase of their turn, the wielder of the Fellblade must roll a D3. On a roll of 1, they lose a single Wound.</characteristic>
       </characteristics>
     </profile>
     <profile name="Weeping Blade" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="36bb-383b-a9ad-dc12">
@@ -11124,7 +11211,7 @@ However, during the Command sub-phase of their turn, the wielder of the Fellblad
         <characteristic name="R" typeId="2360-c777-5e07-ed58">Combat</characteristic>
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
-        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Multiple Wounds (D3), Poisoned Attacks</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Multiple Wounds (D3), Poisoned Attacks</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71"/>
       </characteristics>
     </profile>
@@ -11144,7 +11231,7 @@ If this test is failed, they suffer a -1 modifier to their Toughness characteris
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">N/A</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">N/A</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Magical Attacks, Move &amp; Shoot</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Single use. A model armed with a Death Globe must target a specific model within its target unit, such as a champion or a character. Make a roll To Hit as normal. If successful, centre a small (3&quot;) blast template over the target model. Any model whose base lies underneath the template must make an Initiative test. If this test is failed, they lose a single Wound</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Single use. A model armed with a Death Globe must target a specific model within its target unit, such as a champion or a character. Make a roll To Hit as normal. If successful, centre a small (3&quot;) blast template over the target model. Any model whose base lies underneath the template must make an Initiative test. If this test is failed, they lose a single Wound</characteristic>
       </characteristics>
     </profile>
     <profile name="Cautious Shield" typeId="c14f-740-8107-d34b" typeName="Armour" hidden="false" id="f6a4-255-9bee-9c31">
@@ -11472,7 +11559,7 @@ Note that the result of this additional D3 cannot cause a miscast or a perfect i
     </profile>
     <profile name="Blood Armour" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour" hidden="false" id="d38d-6966-2840-f1e">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Models whose troop type is ‘infantry’ or ‘cavalry’ only. 
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Models whose troop type is ‘infantry’ or ‘cavalry’ only. 
 
 
 The Blood Armour is a suit of armour that gives its wearer an armour value of 5+. For each unsaved wound the wearer inflicts, this armour value is improved by 1, to a maximum of 2+.</characteristic>
@@ -11564,7 +11651,7 @@ Note that this only applies to non-magical weapons and does not apply to a model
       <characteristics>
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Necromancers only. This model can cast the following Bound spell, with a Power Level of 2. Roll a D6 each time the Hand of Dust is used. On a roll of 1, it crumbles to dust and cannot be used again:
 
-Type: Assailment  Casting Value: 9+ Range: Combat Effect: The target enemy unit suffers 2D6 Strength 5 hits, each with an AP of -1.
+Type: Assailment  Casting Value: 9+ Range: Combat Effect: The target enemy unit suffers 2D6 Strength 5 hits, each with an AP of -1.
 
 Effect: The target enemy unit suffers 2D6 Strength 5 hits, each with an AP of -1.</characteristic>
       </characteristics>
@@ -11607,7 +11694,7 @@ Note that this is a modifier to the result of a roll – it does not negate a ro
     </profile>
     <profile id="874bb5f9-c398f34f" name="Anointed Armour" hidden="false" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
       <characteristics>
-        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Models with the Grail Vow whose troop type is ‘infantry’ or ‘cavalry’ only. The Anointed Armour is a suit of heavy armour. In addition, as long as the wearer has the Blessing of the Lady, they are immune to the Killing Blow and Multiple Wounds (X) special rules. If the wearer suffers an unsaved wound from an attack with either of these special rules, they lose a single Wound. Should the wearer ever lose the Blessing of the Lady, this effect is lost.</characteristic>
+        <characteristic name="Description" typeId="d6b2-9b2a-d88e-eec9">Models with the Grail Vow whose troop type is ‘infantry’ or ‘cavalry’ only. The Anointed Armour is a suit of heavy armour. In addition, as long as the wearer has the Blessing of the Lady, they are immune to the Killing Blow and Multiple Wounds (X) special rules. If the wearer suffers an unsaved wound from an attack with either of these special rules, they lose a single Wound. Should the wearer ever lose the Blessing of the Lady, this effect is lost.</characteristic>
       </characteristics>
     </profile>
     <profile id="419d8e2e-c510a738" name="Ironspike Shield" hidden="false" typeId="fefe-6a57-a203-edf9" typeName="Magic Armour">
@@ -12018,7 +12105,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+3</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Monster Slayer, Requires Two Hands, Strike Last</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Monster Slayer, Requires Two Hands, Strike Last</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Notes: Models whose troop type is ‘infantry’ or ‘chariot’ only.</characteristic>
       </characteristics>
     </profile>
@@ -12108,7 +12195,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="R" typeId="51c8-c0d6-94db-264c">Combat</characteristic>
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">S+2</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-2</characteristic>
-        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Multiple Wounds (2), Requires Two Hands, Strike Last</characteristic>
+        <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks, Multiple Wounds (2), Requires Two Hands, Strike Last</characteristic>
         <characteristic name="Note" typeId="5e5e-34db-1ee0-86"/>
       </characteristics>
     </profile>
@@ -12190,7 +12277,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
         <characteristic name="S" typeId="4f75-25c9-31bd-7074">10</characteristic>
         <characteristic name="AP" typeId="15e2-fff4-477f-ea26">-5</characteristic>
         <characteristic name="Special Rules" typeId="57a7-47c0-8d74-d54c">Magical Attacks</characteristic>
-        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Magical Attacks, Multiple Wounds (D6), Requires Two Hands</characteristic>
+        <characteristic name="Note" typeId="5e5e-34db-1ee0-86">Magical Attacks, Multiple Wounds (D6), Requires Two Hands</characteristic>
       </characteristics>
     </profile>
     <profile name="Sword Of The Quest (Single-Handed)" typeId="e4d1-790a-ab75-2b57" typeName="Magic Weapons" hidden="false" id="1c96-85cc-8c16-848e">
@@ -13045,7 +13132,7 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     </profile>
     <profile name="Potion Of Fervour" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="a671-a6dc-f858-3d14">
       <characteristics>
-        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single Use. During the Command sub-phase of their turn,  the bearer of the Potion of Fervour can consume it. Until the end of that turn, the model has a +D3 modifier to its Attacks charateristic (to a maximum of 10).
+        <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single Use. During the Command sub-phase of their turn,  the bearer of the Potion of Fervour can consume it. Until the end of that turn, the model has a +D3 modifier to its Attacks charateristic (to a maximum of 10).
 
 
 *Note that a model can only consume a single potion (of any type) per Command phase.*</characteristic>
@@ -13054,17 +13141,12 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
     <profile name="Becalming Orb" typeId="d29c-a3fb-dcdf-29d6" typeName="Enchanted Items" hidden="false" id="e68a-58d4-1de5-8d59">
       <characteristics>
         <characteristic name="Description" typeId="cea7-7573-475d-cc1d">Single Use. The bearer of the Becalming Orb may cast the following Bound spell, with a Power level of 1:
-
-
-**Type:** Hex
-**Casting Value:** 8+
-**Range:** Self
-**Effect:** Until your next Start of Turn sub-phase, enemy Wizards that are within 15&quot; of the caster when attempting to cast a spell must increase that spell&apos;s casting value by 2.</characteristic>
+</characteristic>
       </characteristics>
     </profile>
     <profile name="Staff Of Quietude" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="73f6-2847-43ed-69ac">
       <characteristics>
-        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">During the Command sub-phase of their turn, the bearer of the Staff of Quietude can attempt to unleash  its power by making a Leadership test. If this test is passed, all &apos;Remains in Play&apos; spells currently in play, are dispelled, including spells cast by friendly models.</characteristic>
+        <characteristic name="Description" typeId="fdd8-b367-1d68-c9cd">During the Command sub-phase of their turn, the bearer of the Staff of Quietude can attempt to unleash  its power by making a Leadership test. If this test is passed, all &apos;Remains in Play&apos; spells currently in play, are dispelled, including spells cast by friendly models.</characteristic>
       </characteristics>
     </profile>
     <profile name="Scroll Of Disruption" typeId="65d6-7512-2a53-bd6c" typeName="Arcane Items" hidden="false" id="f1a8-e067-818b-30d1">
@@ -13081,6 +13163,15 @@ Special Rules: Horde, Nehekharan Undead, Regeneration (6+), Skirmishers Note tha
 
 
 *Note that when this item is used, all dice are re-rolled, including any bonus or discard dice granted by special rules or magic items*</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Becalming Orb" typeId="8232-ae14-b1f6-b4df" typeName="Spell" hidden="false" id="a90f-a6f9-7166-fa33">
+      <characteristics>
+        <characteristic name="Number" typeId="8a2b-690b-e552-6aa0"/>
+        <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Hex</characteristic>
+        <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">8+</characteristic>
+        <characteristic name="Range" typeId="1043-a0ad-2909-dd28">Self</characteristic>
+        <characteristic name="Effect" typeId="64ba-31-acf0-5a">Until your next Start of Turn sub-phase, enemy Wizards that are within 15&quot; of the caster when attempting to cast a spell must increase that spell&apos;s casting value by 2.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
